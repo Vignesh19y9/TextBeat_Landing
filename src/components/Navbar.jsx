@@ -30,8 +30,8 @@ const Navbar = () => {
               Sign In
             </a> */}
             <a
-              href="#"
-              className="bg-gradient-to-r from-green-600 to-green-800 py-2 px-3 rounded-md"
+              href="https://robsapp1.ck.page/textbeats"
+              className="bg-gradient-to-r from-green-600 to-green-800 py-2 px-6 rounded-full font-bold"
             >
               Become a Tester
             </a>
@@ -56,7 +56,7 @@ const Navbar = () => {
                 Sign In
               </a> */}
               <a
-                href="#"
+                href="https://robsapp1.ck.page/textbeats"
                 className="py-2 px-3 rounded-md bg-gradient-to-r from-purple-500 to-violet-800"
               >
                 Become a Tester

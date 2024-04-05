@@ -4,28 +4,28 @@ import video2 from "../assets/video2.mp4";
 const HeroSection = () => {
   return (
     <div className="flex flex-col items-center mt-6 lg:mt-20">
-      <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
+      <h1 className="text-5xl sm:text-6xl lg:text-7xl text-center tracking-wide font-extrabold">
         Turn Words into
-        <span className="bg-gradient-to-r from-purple-500 to-violet-500 text-transparent bg-clip-text">
+        <span className="bg-gradient-to-r from-violet-500 to-purple-500 text-transparent bg-clip-text">
           {" "}
-          Stunning
+          Stunning{" "}
         </span>
         Videos
-        <span className="bg-gradient-to-r from-purple-500 to-violet-500 text-transparent bg-clip-text">
+        <span className="bg-gradient-to-r from-yellow-300 to-orange-500 text-transparent bg-clip-text">
           {" "}
           Instantly
         </span>
       </h1>
-      <p className="mt-10 text-3xl text-center text-neutral-500 max-w-4xl">
+      <p className="mt-10 text-3xl text-center text-neutral-300 max-w-4xl">
         Eliminate hours of complex video editing.
       </p>
-      <p className="mt-0 text-3xl text-center text-neutral-500 max-w-4xl">
+      <p className="mt-5 text-lg text-center text-white max-w-4xl">
         Simply Type, Preview, Export, and Share
       </p>
       <div className="flex justify-center my-10">
         <a
-          href="#"
-          className="bg-gradient-to-r from-purple-500 to-violet-800 py-3 px-4 mx-3 rounded-md"
+          href="https://robsapp1.ck.page/textbeats"
+          className="bg-gradient-to-r from-purple-500 to-violet-700 py-5 px-10 mx-5 font-bold rounded-full"
         >
           Start Testing Now →
         </a>
@@ -33,6 +33,7 @@ const HeroSection = () => {
           Documentation
         </a> */}
       </div>
+      Supported on iOS 14+ devices.
       <div className="flex mt-10 justify-center">
         <video
           autoPlay
