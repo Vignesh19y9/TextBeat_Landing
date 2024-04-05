@@ -15,25 +15,25 @@ const Navbar = () => {
       <div className="container px-4 mx-auto relative lg:text-sm">
         <div className="flex justify-between items-center">
           <div className="flex items-center flex-shrink-0">
-            <img className="h-10 w-10 mr-2" src={logo} alt="Logo" />
-            <span className="text-xl tracking-tight">VirtualR</span>
+            <img className="h-8 w-12 mr-2" src={logo} alt="Logo" />
+            <span className="text-xl tracking-tight">Text Beat</span>
           </div>
-          <ul className="hidden lg:flex ml-14 space-x-12">
+          {/* <ul className="hidden lg:flex ml-14 space-x-12">
             {navItems.map((item, index) => (
               <li key={index}>
                 <a href={item.href}>{item.label}</a>
               </li>
             ))}
-          </ul>
+          </ul> */}
           <div className="hidden lg:flex justify-center space-x-12 items-center">
-            <a href="#" className="py-2 px-3 border rounded-md">
+            {/* <a href="#" className="py-2 px-3 border rounded-md">
               Sign In
-            </a>
+            </a> */}
             <a
               href="#"
-              className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 rounded-md"
+              className="bg-gradient-to-r from-green-600 to-green-800 py-2 px-3 rounded-md"
             >
-              Create an account
+              Become a Tester
             </a>
           </div>
           <div className="lg:hidden md:flex flex-col justify-end">
@@ -52,14 +52,14 @@ const Navbar = () => {
               ))}
             </ul>
             <div className="flex space-x-6">
-              <a href="#" className="py-2 px-3 border rounded-md">
+              {/* <a href="#" className="py-2 px-3 border rounded-md">
                 Sign In
-              </a>
+              </a> */}
               <a
                 href="#"
-                className="py-2 px-3 rounded-md bg-gradient-to-r from-orange-500 to-orange-800"
+                className="py-2 px-3 rounded-md bg-gradient-to-r from-purple-500 to-violet-800"
               >
-                Create an account
+                Become a Tester
               </a>
             </div>
           </div>
