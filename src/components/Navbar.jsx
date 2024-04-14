@@ -1,6 +1,6 @@
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
-import logo from "../assets/logo.png";
+import logo2 from "../assets/logo2.png";
 import { navItems } from "../constants";
 
 const Navbar = () => {
@@ -11,11 +11,12 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg border-b border-neutral-700/80">
+    // sticky top-0 border-b border-neutral-700/80
+    <nav className=" z-50 py-3 backdrop-blur-lg ">
       <div className="container px-4 mx-auto relative lg:text-sm">
         <div className="flex justify-between items-center">
           <div className="flex items-center flex-shrink-0">
-            <img className="h-8 w-12 mr-2" src={logo} alt="Logo" />
+            <img className="h-8 w-8 mr-2 rounded-md" src={logo2} alt="Logo" />
             <span className="text-xl tracking-tight">Text Beat</span>
           </div>
           {/* <ul className="hidden lg:flex ml-14 space-x-12">
@@ -31,7 +32,12 @@ const Navbar = () => {
             </a> */}
             <a
               href="https://robsapp1.ck.page/textbeats"
-              className="bg-gradient-to-r from-green-600 to-green-800 py-2 px-6 rounded-full font-bold"
+              //   className="bg-gradient-to-r from-green-600 to-green-800 py-2 px-6 rounded-full font-bold"
+              // >
+              className="bg-gradient-to-r py-2 px-6 rounded-full font-bold"
+              style={{
+                backgroundImage: "linear-gradient(to right, #560DF8, #2B00B0)",
+              }}
             >
               Become a Tester
             </a>
@@ -44,20 +50,24 @@ const Navbar = () => {
         </div>
         {mobileDrawerOpen && (
           <div className="fixed right-0 z-20 bg-neutral-900 w-full p-12 flex flex-col justify-center items-center lg:hidden">
-            <ul>
+            {/* <ul>
               {navItems.map((item, index) => (
                 <li key={index} className="py-4">
                   <a href={item.href}>{item.label}</a>
                 </li>
               ))}
-            </ul>
+            </ul> */}
             <div className="flex space-x-6">
               {/* <a href="#" className="py-2 px-3 border rounded-md">
                 Sign In
               </a> */}
               <a
                 href="https://robsapp1.ck.page/textbeats"
-                className="py-2 px-3 rounded-md bg-gradient-to-r from-purple-500 to-violet-800"
+                className="bg-gradient-to-r py-2 px-6 rounded-full font-bold"
+                style={{
+                  backgroundImage:
+                    "linear-gradient(to right, #560DF8, #2B00B0)",
+                }}
               >
                 Become a Tester
               </a>
