@@ -36,7 +36,7 @@ const Navbar = () => {
               // >
               className="bg-gradient-to-r py-2 px-6 rounded-full font-bold"
               style={{
-                backgroundImage: "linear-gradient(to right, #560DF8, #2B00B0)",
+                backgroundImage: "linear-gradient(to right, #560DF8, #560DF8)",
               }}
             >
               Become a Tester

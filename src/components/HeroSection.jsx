@@ -6,26 +6,49 @@ const HeroSection = () => {
     <div className="flex flex-col items-center mt-6 lg:mt-20">
       <h1 className="text-5xl sm:text-6xl lg:text-7xl text-center tracking-wide font-extrabold">
         Turn Words into
-        <span className="bg-gradient-to-r from-violet-500 to-purple-500 text-transparent bg-clip-text">
+        <span
+          className="bg-gradient-to-r text-transparent bg-clip-text"
+          style={{
+            backgroundImage: "linear-gradient(to right, #00C5C4, #FF007A)",
+          }}
+        >
           {" "}
           Stunning{" "}
         </span>
         Videos
-        <span className="bg-gradient-to-r from-yellow-300 to-orange-500 text-transparent bg-clip-text">
+        <span
+          className="bg-gradient-to-r text-transparent bg-clip-text"
+          style={{
+            backgroundImage: "linear-gradient(to right, #560DF8, #00C5C4)",
+          }}
+        >
           {" "}
           Instantly
         </span>
       </h1>
-      <p className="mt-10 text-3xl text-center text-neutral-300 max-w-4xl">
+      <p className="text-3xl sm:text-3xl lg:text-3xl text-center tracking-wide  py-10">
+        <span
+          className="bg-gradient-to-r text-transparent bg-clip-text"
+          style={{
+            backgroundImage: "linear-gradient(to right, #00C5C4, #00C5C4)",
+          }}
+        >
+          " All synced to Beat "
+        </span>
+      </p>
+      <p className="mt-10 text-3xl text-center text-neutral-500 max-w-4xl">
         Eliminate hours of complex video editing.
       </p>
       <p className="mt-5 text-lg text-center text-white max-w-4xl">
-        Simply Type, Preview, Export, and Share
+        Type → Preview → Export → Share
       </p>
       <div className="flex justify-center my-10">
         <a
           href="https://robsapp1.ck.page/textbeats"
-          className="bg-gradient-to-r from-purple-500 to-violet-700 py-5 px-10 mx-5 font-bold rounded-full"
+          className="bg-gradient-to-r py-5 px-10 mx-5 rounded-full font-bold"
+          style={{
+            backgroundImage: "linear-gradient(to right, #560DF8, #2B00B0)",
+          }}
         >
           Start Testing Now →
         </a>
@@ -38,8 +61,10 @@ const HeroSection = () => {
         <video
           autoPlay
           loop
-          muted
-          className="rounded-lg w-10/12 border border-purple-700 shadow-sm shadow-violet-400 mx-2 my-4"
+          className="rounded-lg w-10/12 borde mx-2 my-4"
+          style={{
+            backgroundImage: "linear-gradient(to right, #560DF8, #2B00B0)",
+          }}
         >
           <source src={video1} type="video/mp4" />
           Your browser does not support the video tag.
