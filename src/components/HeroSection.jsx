@@ -58,7 +58,7 @@ const HeroSection = () => {
       </div>
       Supported on iOS 14+ devices.
       <div className="flex mt-10 justify-center">
-        <video
+        {/* <video
           autoPlay
           loop
           className="rounded-lg w-10/12 borde mx-2 my-4"
@@ -68,7 +68,7 @@ const HeroSection = () => {
         >
           <source src={video1} type="video/mp4" />
           Your browser does not support the video tag.
-        </video>
+        </video> */}
         {/* <video
           autoPlay
           loop
@@ -78,6 +78,15 @@ const HeroSection = () => {
           <source src={video2} type="video/mp4" />
           Your browser does not support the video tag.
         </video> */}
+        <iframe
+          width="515"
+          height="660"
+          src="https://youtube.com/embed/-thf9iufiCo"
+          title="YouTube video player"
+          frameborder="10"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
       </div>
     </div>
   );
