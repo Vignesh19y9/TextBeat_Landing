@@ -99,24 +99,24 @@ export const features = [
 
 export const checklistItems = [
   {
-    title: "Code merge made easy",
+    title: "Begin with Text",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Introduce the text content you want to showcase in your video.",
   },
   {
-    title: "Review code without worry",
+    title: "Choose your Music and Colors",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Select high-energy music and colors that complement each other.",
   },
   {
-    title: "AI Assistance to reduce time",
+    title: "Video Creation",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Text Beat will detect beats and automatically add text at the correct points.",
   },
   {
-    title: "Share work in minutes",
+    title: "Customize",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Adjust colors, fonts, and backgrounds to match your brand or personal style.",
   },
 ];
 

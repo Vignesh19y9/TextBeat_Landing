@@ -5,5 +5,5 @@
 :root {
   font-family: "Poppins", sans-serif;
   color-scheme: dark;
-  background-color: #0f172a;
+  background-image: linear-gradient(to bottom right, #000000, #180a41, #000000);
 }

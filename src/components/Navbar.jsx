@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           <div className="flex items-center flex-shrink-0">
             <img className="h-8 w-8 mr-2 rounded-md" src={logo2} alt="Logo" />
-            <span className="text-xl tracking-tight">Text Beat</span>
+            <span className="text-sm font-bold tracking-wide">Text Beat</span>
           </div>
           {/* <ul className="hidden lg:flex ml-14 space-x-12">
             {navItems.map((item, index) => (
@@ -39,7 +39,9 @@ const Navbar = () => {
                 backgroundImage: "linear-gradient(to right, #560DF8, #560DF8)",
               }}
             >
-              Become a Tester
+              <span className="text-sm font-light tracking-widest">
+                Try now
+              </span>
             </a>
           </div>
           <div className="lg:hidden md:flex flex-col justify-end">
@@ -69,7 +71,9 @@ const Navbar = () => {
                     "linear-gradient(to right, #560DF8, #2B00B0)",
                 }}
               >
-                Become a Tester
+                <span className="text-sm font-light tracking-widest">
+                  Try now
+                </span>
               </a>
             </div>
           </div>
