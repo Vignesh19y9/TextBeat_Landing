@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function App() {
   return (
@@ -7,7 +8,7 @@ export default function App() {
       <div className="mb-9 flex justify-center" style={{ paddingTop: "5rem" }}>
         <a className="mr-9 text-neutral-800 dark:text-neutral-200"></a>
         <a
-          href="https://twitter.com/Vignesh_ey"
+          href="https://twitter.com/TextBeatApp"
           className="mr-9 text-neutral-800 dark:text-neutral-200"
         >
           <svg
@@ -35,9 +36,20 @@ export default function App() {
           </svg>
         </a>
       </div>
+      <div className="pb-5">
+        <a
+          href="mailto:robzapps1@gmail.com"
+          className="text-neutral-800 dark:text-neutral-400 justify-center space-x-4"
+        >
+          robzapps1@gmail.com
+        </a>
+      </div>
       {/* </div> */}
-      robzapps1@gmail.com
-      {/* <!--Copyright section--> */}
+
+      <div className="flex justify-center space-x-4">
+        <Link to="/privacy">Privacy Policy</Link>
+        <Link to="/terms"> Terms of Service</Link>
+      </div>
       <div className=" p-4 text-center text-neutral-700  dark:text-neutral-200">
         © 2024 TextBeat
         <a className="text-neutral-800 dark:text-neutral-400" href=""></a>
