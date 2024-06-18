@@ -31,7 +31,8 @@ const Navbar = () => {
               Sign In
             </a> */}
             <a
-              href="https://robsapp1.ck.page/textbeats"
+              href="https://apps.apple.com/in/app/text-beat-music-video-maker/id6478076101"
+              // href="https://robsapp1.ck.page/textbeats"
               //   className="bg-gradient-to-r from-green-600 to-green-800 py-2 px-6 rounded-full font-bold"
               // >
               className="bg-gradient-to-r py-2 px-6 rounded-full font-bold"
@@ -39,8 +40,8 @@ const Navbar = () => {
                 backgroundImage: "linear-gradient(to right, #560DF8, #560DF8)",
               }}
             >
-              <span className="text-sm font-light tracking-widest">
-                Try now
+              <span className="text-sm font-bold tracking-normal">
+                Download Now
               </span>
             </a>
           </div>
@@ -64,15 +65,16 @@ const Navbar = () => {
                 Sign In
               </a> */}
               <a
-                href="https://robsapp1.ck.page/textbeats"
+                // href="https://robsapp1.ck.page/textbeats"
+                href="https://apps.apple.com/in/app/text-beat-music-video-maker/id6478076101"
                 className="bg-gradient-to-r py-2 px-6 rounded-full font-bold"
                 style={{
                   backgroundImage:
                     "linear-gradient(to right, #560DF8, #2B00B0)",
                 }}
               >
-                <span className="text-sm font-light tracking-widest">
-                  Try now
+                <span className="text-sm font-bold tracking-normal">
+                  Download Now
                 </span>
               </a>
             </div>
