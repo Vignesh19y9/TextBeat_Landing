@@ -5,6 +5,7 @@ import video2 from "../assets/video2.mp4";
 import { checklistItems } from "../constants";
 import Accordion from "./Accordion";
 import "./Accordion.css";
+import DownloadButton from "./DownloadButton";
 
 const panels = [
   {
@@ -52,7 +53,11 @@ const Workflow = () => {
         Turn text to video in just a few clicks
       </h3>
       <div className="flex flex-col lg:flex-row items-center mt-6 lg:mt-2 lg:space-x-8">
-        <Accordion panels={panels} onTabChange={handleTabChange} />
+        <div>
+          {" "}
+          <Accordion panels={panels} onTabChange={handleTabChange} />
+          <DownloadButton />
+        </div>
         <Video videoSrc={activeVideo} />
       </div>
     </div>
