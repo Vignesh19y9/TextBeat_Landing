@@ -21,21 +21,24 @@ const NavLinks = () => (
 );
 
 const NavActions = () => (
-  <div className="hidden lg:flex justify-center space-x-12 items-center">
+  <div className="hidden lg:flex justify-center space-x-4 items-center">
     <a
       href="https://robsapp1.ck.page/textbeats"
-      className="py-2 px-3 border rounded-md"
+      className=" font-bold tracking-wide py-2 px-6 border bg-gray-700 border-gray-600 rounded-full text-white hover:bg-gray-600 hover:text-white transition-colors duration-300"
+      style={{
+        backgroundImage: "linear-gradient(to right, transparent, transparent)",
+      }}
     >
-      Become a tester
+      BECOME TESTER
     </a>
     <a
       href="https://apps.apple.com/in/app/text-beat-music-video-maker/id6478076101"
-      className="bg-gradient-to-r py-2 px-6 rounded-full font-bold"
+      className="bg-blue-600 py-2 px-6 rounded-full font-bold text-white hover:bg-blue-700 transition-colors duration-300"
       style={{
-        backgroundImage: "linear-gradient(to right, #560DF8, #560DF8)",
+        backgroundImage: "linear-gradient(to right, #007AFF, #007AFF)",
       }}
     >
-      <span className="text-sm font-bold tracking-normal">Download Now</span>
+      <span className="text-sm font-bold tracking-normal">GET</span>
     </a>
   </div>
 );
@@ -50,7 +53,7 @@ const MobileDrawer = ({ mobileDrawerOpen, toggleNavbar }) => (
 
 const MobileMenu = ({ mobileDrawerOpen }) =>
   mobileDrawerOpen && (
-    <div className="fixed right-0 z-20 bg-neutral-900 w-full p-12 flex flex-col justify-center items-center lg:hidden">
+    <div className="fixed right-0 z-20 bg-neutral-900 w-full p-12 flex flex-col justify-center items-center lg:hidden py-10">
       <ul>
         {navItems.map((item, index) => (
           <li key={index} className="py-4">
@@ -58,21 +61,28 @@ const MobileMenu = ({ mobileDrawerOpen }) =>
           </li>
         ))}
       </ul>
-      <div className="flex space-x-6">
-        <a href="#" className="py-2 px-3 border rounded-md">
-          Sign In
-        </a>
+      <div className="flex flex-col space-y-4 mt-6">
         <a
-          href="https://apps.apple.com/in/app/text-beat-music-video-maker/id6478076101"
-          className="bg-gradient-to-r py-2 px-6 rounded-full font-bold"
+          href="https://robsapp1.ck.page/textbeats"
+          className="font-bold tracking-wide py-2 px-6 border bg-gray-700 border-gray-600 rounded-full text-white hover:bg-gray-600 hover:text-white transition-colors duration-300"
           style={{
-            backgroundImage: "linear-gradient(to right, #560DF8, #2B00B0)",
+            backgroundImage:
+              "linear-gradient(to right, transparent, transparent)",
           }}
         >
-          <span className="text-sm font-bold tracking-normal">
-            Download Now
-          </span>
+          BECOME TESTER
         </a>
+        <div className="text-center">
+          <a
+            href="https://apps.apple.com/in/app/text-beat-music-video-maker/id6478076101"
+            className="bg-blue-600 py-2 px-8 rounded-full font-bold text-white hover:bg-blue-700 transition-colors duration-300"
+            style={{
+              backgroundImage: "linear-gradient(to right, #007AFF, #007AFF)",
+            }}
+          >
+            <span className="text-sm font-bold tracking-normal">GET</span>
+          </a>
+        </div>
       </div>
     </div>
   );
