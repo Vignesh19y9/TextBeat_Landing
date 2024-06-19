@@ -22,23 +22,22 @@ const NavLinks = () => (
 
 const NavActions = () => (
   <div className="hidden lg:flex justify-center space-x-4 items-center">
-    <a
-      href="https://robsapp1.ck.page/textbeats"
-      className=" font-bold tracking-wide py-2 px-6 border bg-gray-700 border-gray-600 rounded-full text-white hover:bg-gray-600 hover:text-white transition-colors duration-300"
-      style={{
-        backgroundImage: "linear-gradient(to right, transparent, transparent)",
-      }}
-    >
-      BECOME TESTER
+    <a href="https://robsapp1.ck.page/textbeats">
+      <button
+        type="button"
+        className="text-white hover:text-white bg-[#454545] hover:bg-[#5b5b5b] focus:ring-4 focus:outline-none focus:ring-[#2c2035] font-bold rounded-full text-sm px-4 py-2 text-center inline-flex items-center transition-colors duration-300"
+      >
+        BECOME TESTER
+      </button>
     </a>
-    <a
-      href="https://apps.apple.com/in/app/text-beat-music-video-maker/id6478076101"
-      className="bg-blue-600 py-2 px-6 rounded-full font-bold text-white hover:bg-blue-700 transition-colors duration-300"
-      style={{
-        backgroundImage: "linear-gradient(to right, #007AFF, #007AFF)",
-      }}
-    >
-      <span className="text-sm font-bold tracking-normal">GET</span>
+
+    <a href="https://apps.apple.com/in/app/text-beat-music-video-maker/id6478076101">
+      <button
+        type="button"
+        className="text-white hover:text-white bg-[#007AFF] hover:bg-[#75b7fff3] focus:ring-4 focus:outline-none focus:ring-[#2c2035] font-bold rounded-full text-sm px-6 py-2 text-center inline-flex items-center transition-colors duration-300"
+      >
+        GET
+      </button>
     </a>
   </div>
 );
@@ -62,25 +61,23 @@ const MobileMenu = ({ mobileDrawerOpen }) =>
         ))}
       </ul>
       <div className="flex flex-col space-y-4 mt-6">
-        <a
-          href="https://robsapp1.ck.page/textbeats"
-          className="font-bold tracking-wide py-2 px-6 border bg-gray-700 border-gray-600 rounded-full text-white hover:bg-gray-600 hover:text-white transition-colors duration-300"
-          style={{
-            backgroundImage:
-              "linear-gradient(to right, transparent, transparent)",
-          }}
-        >
-          BECOME TESTER
-        </a>
-        <div className="text-center">
-          <a
-            href="https://apps.apple.com/in/app/text-beat-music-video-maker/id6478076101"
-            className="bg-blue-600 py-2 px-8 rounded-full font-bold text-white hover:bg-blue-700 transition-colors duration-300"
-            style={{
-              backgroundImage: "linear-gradient(to right, #007AFF, #007AFF)",
-            }}
+        <a href="https://robsapp1.ck.page/textbeats">
+          <button
+            type="button"
+            className="text-white hover:text-white bg-[#454545] hover:bg-[#5b5b5b] focus:ring-4 focus:outline-none focus:ring-[#2c2035] font-bold rounded-full text-sm px-4 py-2 text-center inline-flex items-center transition-colors duration-300"
           >
-            <span className="text-sm font-bold tracking-normal">GET</span>
+            BECOME TESTER
+          </button>
+        </a>
+
+        <div className="text-center">
+          <a href="https://apps.apple.com/in/app/text-beat-music-video-maker/id6478076101">
+            <button
+              type="button"
+              className="text-white hover:text-white bg-[#007AFF] hover:bg-[#75b7fff3] focus:ring-4 focus:outline-none focus:ring-[#2c2035] font-bold rounded-full text-sm px-6 py-2 text-center inline-flex items-center transition-colors duration-300"
+            >
+              GET
+            </button>
           </a>
         </div>
       </div>

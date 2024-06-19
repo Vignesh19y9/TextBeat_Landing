@@ -75,7 +75,7 @@ const Video = ({ videoSrc }) => {
       <video
         autoPlay
         loop
-        className="rounded-lg w-11/12 shadow-2xl border border-gray-700"
+        className="rounded-3xl w-11/12 shadow-2xl border border-gray-700"
         controls
       >
         <source src={videoSrc} type="video/mp4" />

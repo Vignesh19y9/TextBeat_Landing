@@ -5,6 +5,9 @@ const DownloadButton = () => {
         <button
           type="button"
           className="text-black hover:text-white bg-[#fff] hover:bg-[#5d41bb] focus:ring-4 focus:outline-none focus:ring-[#6841bb] font-bold rounded-full text-lg px-8 py-3 text-center inline-flex items-center transition-colors duration-300"
+          style={{
+            boxShadow: "0 0px 60px rgba(101, 6, 241, 0.4)",
+          }}
         >
           <svg
             className="w-5 h-5 mr-2 -ml-1"

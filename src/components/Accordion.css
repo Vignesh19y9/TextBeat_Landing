@@ -19,7 +19,7 @@ body {
 
 .accordion {
   border: 1px solid rgb(51, 51, 51);
-  border-radius: 8px;
+  border-radius: 20px;
   overflow: hidden;
   max-width: 470px;
   margin: 0 auto;
@@ -27,7 +27,7 @@ body {
 }
 
 .panel {
-  background-color: #646cffaa;
+  /* background-color: #646cffaa; */
   border-bottom: 1px solid rgb(30, 30, 30);
 }
 .panel__label:focus {

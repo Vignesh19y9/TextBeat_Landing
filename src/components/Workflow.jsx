@@ -42,14 +42,14 @@ const Workflow = () => {
   };
 
   return (
-    <div className="mt-20">
-      <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center mt-6 tracking-tight font-bold ">
+    <div className="mt-20 py-20">
+      <h2 className="text-3xl sm:text-4xl lg:text-4xl text-center mt-6 tracking-wide font-bold ">
         How it{" "}
-        <span className="bg-gradient-to-l from-purple-500 to-violet-800 text-transparent bg-clip-text">
-          Works
+        <span className="bg-gradient-to-l from-pink-500 to-pink-500 text-transparent bg-clip-text font-light">
+          works
         </span>
       </h2>
-      <h3 className="text-3xl sm:text-3xl lg:text-3xl text-center mt-6 tracking-tight ">
+      <h3 className="text-2xl sm:text-2xl lg:text-2xl text-center mt-6 tracking-wide ">
         Turn text to video in just a few clicks
       </h3>
       <div className="flex flex-col lg:flex-row items-center mt-6 lg:mt-2 lg:space-x-8">
@@ -71,7 +71,7 @@ const Video = ({ videoSrc }) => {
       <video
         autoPlay
         loop
-        className="rounded-lg w-10/12 shadow-2xl border border-gray-700"
+        className="rounded-3xl w-10/12 shadow-2xl border border-gray-700"
         controls
       >
         <source src={videoSrc} type="video/mp4" />
