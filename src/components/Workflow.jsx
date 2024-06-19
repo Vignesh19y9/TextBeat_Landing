@@ -9,25 +9,25 @@ import DownloadButton from "./DownloadButton";
 
 const panels = [
   {
-    label: "Begin with Text",
+    label: "1. Begin with Text",
     content: "Introduce the text content you want to showcase in your video.",
   },
   {
-    label: "Choose your Music and Colors",
+    label: "2. Choose your Music and Colors",
     content: "Select high-energy music and colors that complement each other.",
   },
   {
-    label: "Video Creation",
+    label: "3. Video Creation",
     content:
       "Text Beat will detect beats and automatically add text at the correct points.",
   },
   {
-    label: "Customize",
+    label: "4. Customize",
     content:
       "Adjust colors, fonts, and backgrounds to match your brand or personal style.",
   },
   {
-    label: "There's Already a Better Way",
+    label: "5. There's Already a Better Way",
     content: "xxxx",
   },
 ];
@@ -54,7 +54,6 @@ const Workflow = () => {
       </h3>
       <div className="flex flex-col lg:flex-row items-center mt-6 lg:mt-2 lg:space-x-8">
         <div>
-          {" "}
           <Accordion panels={panels} onTabChange={handleTabChange} />
           <DownloadButton />
         </div>
