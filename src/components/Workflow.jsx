@@ -68,15 +68,12 @@ export default Workflow;
 
 const Video = ({ videoSrc }) => {
   return (
-    <div className="hidden lg:flex mt-10 justify-center">
+    <div className="flex mt-10 justify-center">
       <video
         autoPlay
         loop
-        className="rounded-lg w-10/12 border mx-2 my-4"
+        className="rounded-lg w-10/12 shadow-2xl border border-gray-700"
         controls
-        style={{
-          backgroundImage: "linear-gradient(to right, #560DF8, #2B00B0)",
-        }}
       >
         <source src={videoSrc} type="video/mp4" />
         Your browser does not support the video tag.
