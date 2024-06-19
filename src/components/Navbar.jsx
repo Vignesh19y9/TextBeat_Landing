@@ -53,13 +53,13 @@ const MobileDrawer = ({ mobileDrawerOpen, toggleNavbar }) => (
 const MobileMenu = ({ mobileDrawerOpen }) =>
   mobileDrawerOpen && (
     <div className="fixed right-0 z-20 bg-neutral-900 w-full p-12 flex flex-col justify-center items-center lg:hidden py-10">
-      <ul>
+      {/* <ul>
         {navItems.map((item, index) => (
           <li key={index} className="py-4">
             <a href={item.href}>{item.label}</a>
           </li>
         ))}
-      </ul>
+      </ul> */}
       <div className="flex flex-col space-y-4 mt-6">
         <a href="https://robsapp1.ck.page/textbeats">
           <button
@@ -96,7 +96,7 @@ const Navbar = () => {
       <div className="container px-4 mx-auto relative lg:text-sm">
         <div className="flex justify-between items-center">
           <Logo />
-          <NavLinks />
+          {/* <NavLinks /> */}
           <NavActions />
           <MobileDrawer
             mobileDrawerOpen={mobileDrawerOpen}

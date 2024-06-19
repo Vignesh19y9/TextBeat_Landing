@@ -38,7 +38,7 @@ const Heading = () => {
         }}
       >
         {" "}
-        Narrative{" "}
+        Creative{" "}
       </span>
       <div>
         Videos

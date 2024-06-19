@@ -7,6 +7,8 @@ import Pricing from "./components/Pricing";
 import Testimonials from "./components/Testimonials";
 import Terms from "./components/Terms";
 import Privacy from "./components/Privacy";
+import FasterSection from "./components/FasterSection";
+import TitleSection from "./components/TitleSection";
 
 import { Routes, Route } from "react-router-dom";
 
@@ -25,6 +27,8 @@ const App = () => {
               <Workflow />
               {/* <Pricing /> */}
               {/* <Testimonials /> */}
+              <FasterSection />
+              {/* <TitleSection /> */}
               <Footer />
             </div>
           }
