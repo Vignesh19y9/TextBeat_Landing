@@ -75,6 +75,7 @@ const Video = ({ videoSrc }) => {
       <video
         autoPlay
         loop
+        muted
         className="rounded-3xl w-11/12 shadow-2xl border border-gray-700"
         controls
       >

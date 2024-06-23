@@ -11,6 +11,7 @@ import FasterSection from "./components/FasterSection";
 import TitleSection from "./components/TitleSection";
 
 import { Routes, Route } from "react-router-dom";
+import DemosSection from "./components/DemosSection";
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
               {/* <Pricing /> */}
               {/* <Testimonials /> */}
               <FasterSection />
+              <DemosSection />
               {/* <TitleSection /> */}
               <Footer />
             </div>

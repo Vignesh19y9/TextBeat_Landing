@@ -1,6 +1,7 @@
 import video1 from "../assets/created1.mp4";
 import video2 from "../assets/created2.mp4";
 import video3 from "../assets/created3.mp4";
+import DownloadButton from "./DownloadButton";
 
 const DemosSection = () => {
   return (
@@ -16,6 +17,7 @@ const DemosSection = () => {
         <Video videoSrc={video2} />
         <Video videoSrc={video3} />
       </div>
+      <DownloadButton />
     </div>
   );
 };
@@ -28,8 +30,12 @@ const Video = ({ videoSrc }) => {
       <video
         autoPlay
         loop
+        muted
         className="rounded-3xl w-10/12 shadow-2xl border border-gray-700"
         controls
+        style={{
+          boxShadow: "0 0px 60px rgba(101, 6, 241, 0.5)",
+        }}
       >
         <source src={videoSrc} type="video/mp4" />
         Your browser does not support the video tag.
