@@ -1,4 +1,4 @@
-import video1 from "../assets/faster.webm";
+import video1 from "../assets/faster.mp4";
 const FasterSection = () => {
   return (
     <div className="py-10">
