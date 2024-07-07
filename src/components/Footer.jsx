@@ -33,12 +33,12 @@ export default function App() {
         {/* Center */}
         <div className="flex space-x-2">
           <Link to="/privacy">
-            <p className="text-neutral-500">Privacy Policy</p>
+            <p className="text-neutral-500">Privacy</p>
           </Link>
           <p className="text-neutral-500">|</p>
           <Link to="/terms">
             {" "}
-            <p className="text-neutral-500">Terms of Service</p>
+            <p className="text-neutral-500">Terms</p>
           </Link>
         </div>
         {/* Right side */}
