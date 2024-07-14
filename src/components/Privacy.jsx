@@ -58,7 +58,7 @@ const Privacy = () => {
         <h2 className="text-xl font-bold mb-2">Contact Us</h2>
         <p className="text-lg">
           If you have any questions about this Privacy Policy, feel free to get
-          in touch with us at robzapps1@gmail.com
+          in touch with us at contact@robzapps.com
         </p>
       </section>
 

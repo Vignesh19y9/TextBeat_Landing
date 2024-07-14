@@ -286,7 +286,7 @@ const Terms = () => {
           one, and You believe that the copyrighted work has been copied in a
           way that constitutes copyright infringement that is taking place
           through the Service, You must submit Your notice in writing to the
-          attention of our copyright agent via email at robzapps1@gmail.com and
+          attention of our copyright agent via email at contact@robzapps.com and
           include in Your notice a detailed description of the alleged
           infringement. You may be held accountable for damages (including costs
           and attorneys' fees) for misrepresenting that any Content is
@@ -314,7 +314,7 @@ const Terms = () => {
           made under penalty of perjury, that the above information in Your
           notice is accurate and that You are the copyright owner or authorized
           to act on the copyright owner's behalf. You can contact our copyright
-          agent via email at robzapps1@gmail.com. Upon receipt of a
+          agent via email at contact@robzapps.com. Upon receipt of a
           notification, the Company will take whatever action, in its sole
           discretion, it deems appropriate, including removal of the challenged
           content from the Service.
@@ -527,7 +527,7 @@ const Terms = () => {
         <h2 className="text-xl font-bold mb-2">Contact Us</h2>
         <p className="text-lg">
           If you have any questions about these Terms and Conditions, You can
-          contact us: By email: robzapps1@gmail.com
+          contact us: By email: contact@robzapps.com
         </p>
       </section>
 
