@@ -11,7 +11,23 @@ const HeroSection = () => {
         <p className="text-2xl text-center max-w-4xl tracking-wide font-light">
           Eliminate hours of complex video editing.
         </p>
-        <DownloadButton />
+        <div>
+          <DownloadButton />
+          <div className="flex justify-center">
+            <a
+              href="https://www.producthunt.com/posts/textbeat?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-textbeat"
+              target="_blank"
+            >
+              <img
+                src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=475014&theme=light"
+                alt="TextBeat - Text&#0032;Videos&#0032;Instantly | Product Hunt"
+                // style="width: 250px; height: 54px;"
+                width="250"
+                height="54"
+              />
+            </a>
+          </div>
+        </div>
       </div>
       <Video videoSrc={video1} />
     </div>

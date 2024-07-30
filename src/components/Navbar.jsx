@@ -27,7 +27,7 @@ const NavActions = () => (
         type="button"
         className="text-white hover:text-white bg-[#454545] hover:bg-[#5b5b5b] focus:ring-4 focus:outline-none focus:ring-[#2c2035] font-bold rounded-full text-sm px-4 py-2 text-center inline-flex items-center transition-colors duration-300"
       >
-        BECOME TESTER
+        BECOME A TESTER
       </button>
     </a>
 
@@ -66,7 +66,7 @@ const MobileMenu = ({ mobileDrawerOpen }) =>
             type="button"
             className="text-white hover:text-white bg-[#454545] hover:bg-[#5b5b5b] focus:ring-4 focus:outline-none focus:ring-[#2c2035] font-bold rounded-full text-sm px-4 py-2 text-center inline-flex items-center transition-colors duration-300"
           >
-            BECOME TESTER
+            BECOME A TESTER
           </button>
         </a>
 
